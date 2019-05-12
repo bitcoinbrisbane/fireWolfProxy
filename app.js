@@ -17,7 +17,8 @@ app.get('/', (req, res) => {
 });
 
 function parseContract(html) {
-    console.log("in myfunc");
+    //const pattern = '/<contract>0[xX][0-9a-fA-F]+<\/contract>'
+    const regex = /<contract>0[xX][0-9a-fA-F]+<\/contract>/gmi;
 
     return "";
 }
