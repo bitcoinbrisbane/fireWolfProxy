@@ -1,0 +1,13 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Wolf Proxy</title>
+    <network>Main</network>
+</head>
+<body>
+    <contract address="0x4390282c7d623edee9aacb971303077aba2d5e14">
+        <h1>My ERC20</hi>
+        <function name=""/>
+    </contract>
+</body>
+</html> 
