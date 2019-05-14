@@ -5,9 +5,9 @@
     <network>Main</network>
 </head>
 <body>
-    <contract address="0x4390282c7d623edee9aacb971303077aba2d5e14">
+    <contract address="0x4390282c7d623edee9aacb971303077aba2d5e14" erc="20">
         <h1>My ERC20</hi>
-        <function name=""/>
+        <function name="totalSupply" signature="totalSupply()"/>
     </contract>
 </body>
 </html> 
