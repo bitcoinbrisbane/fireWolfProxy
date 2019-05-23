@@ -5,7 +5,7 @@ const port = 8888;
 const fs = require('fs');
 
 async function callBlockChain() {
-    
+    return "";
 }
 
 app.get('/', (req, res) => {

@@ -18,10 +18,12 @@ contract ERC20 {
     using SafeMath for uint256;
 
     mapping (address => uint256) private _balances;
-
     mapping (address => mapping (address => uint256)) private _allowances;
 
     uint256 private _totalSupply;
+
+    string public name = "FireWolf";
+    string public symbol = "FW";
 
     /**
      * @dev Total number of tokens in existence.
@@ -47,6 +49,11 @@ contract ERC20 {
      */
     function allowance(address owner, address spender) public view returns (uint256) {
         return _allowances[owner][spender];
+    }
+    
+    constructor() public {
+        _totalSupply = 10000;
+        _balances[msg.sender] = _totalSupply;
     }
 
     /**
